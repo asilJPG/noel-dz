@@ -1,0 +1,287 @@
+body {
+  justify-content: center;
+  /* width: 1600px; */
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+:root {
+  --gray: #fafafc;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  text-decoration: none;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.header {
+  width: 100%;
+  height: 80px;
+  background-color: #232536;
+  color: aliceblue;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.header ul {
+  text-decoration: none;
+  display: flex;
+  gap: 20px;
+}
+.header a {
+  text-decoration: none;
+  color: aliceblue;
+}
+.main1 {
+  margin-top: 96px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.main-text {
+  gap: 60px;
+  width: 1189px;
+  height: 697px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main-text h1 {
+  text-align: center;
+  width: 624px;
+}
+.main-text p {
+  text-align: center;
+  width: 624px;
+}
+
+.main-info {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.info {
+  width: 1280px;
+  height: 949px;
+  background-color: #ecf8f9;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.info .box {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: 5px;
+  padding: 20px;
+  width: 354px;
+  height: 243px;
+  background-color: #fff;
+}
+
+.first {
+  width: 100%;
+  /* align-items: center; */
+  background-color: var(--gray);
+  margin-bottom: 100px;
+}
+
+.frstpage {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  width: 625px;
+  margin-bottom: 64px;
+}
+
+.main {
+  width: 1281px;
+  /* align-items: center; */
+  margin: auto;
+  background-color: var(--gray);
+  padding: 120px 0;
+}
+
+.frstpage p:first-child {
+  margin-bottom: 16px;
+  font-size: 14;
+  color: #000;
+}
+
+.frstpage h1 {
+  font-size: 36px;
+  margin-bottom: 24px;
+}
+
+.frstpage p:last-child {
+  font-size: 16px;
+  font-weight: 100;
+}
+
+.boxes div {
+  width: 418px;
+  height: 188px;
+  background-color: white;
+}
+
+.boxes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  /* justify-content: center; */
+  overflow-x: unset;
+}
+
+.boxes img {
+  margin-bottom: 8px;
+}
+
+.boxes h3 {
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.boxes p {
+  font-size: 14px;
+  font-weight: lighter;
+}
+
+.box {
+  padding: 30px;
+}
+
+@media (max-width: 1000px) {
+  .box {
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 600px) {
+  .boxes {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+}
+
+.email {
+  background-image: url(./images/main\ fone.jpeg);
+  width: 1280px;
+  height: 333px;
+  margin: auto;
+  position: relative;
+  margin-bottom: 100px;
+}
+
+.email input {
+  position: absolute;
+  width: 454px;
+  background-color: white;
+  border: none;
+  padding: 20px 30px;
+  outline: none;
+  display: flex;
+  right: 10%;
+  bottom: 43%;
+}
+
+.email p {
+  font-size: 14px;
+  padding: 0 90px;
+  bottom: 50%;
+  color: white;
+}
+
+.email h1 {
+  font-size: 36px;
+  word-break: break-all;
+  width: 600px;
+  padding: 10px 90px;
+  color: white;
+}
+
+.email div {
+  padding: 100px 50px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+  margin-bottom: 50px;
+  width: 1600px;
+}
+
+.pages {
+  display: flex;
+  gap: 58px;
+  font-weight: 700;
+}
+.logo-text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-weight: 500;
+}
+.logo img {
+  margin-bottom: 32px;
+}
+
+.logo > h1 {
+  font-size: 48px;
+  margin-bottom: 40px;
+}
+
+.logo > h4 {
+  font-size: 24px;
+  margin-bottom: 28px;
+}
+
+.logo p:nth-child(2) {
+  border-bottom: black;
+  border: solid 10px;
+}
+.page1 {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.last {
+  margin-top: 20px;
+  width: 100%;
+  height: 80px;
+  background-color: #ffe6d2;
+  color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.last ul {
+  text-decoration: none;
+  display: flex;
+  gap: 20px;
+}
+.last a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+.last-logo {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
